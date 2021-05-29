@@ -15,11 +15,13 @@
         android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImg"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/profile"
             app:civ_border_color="@color/black"
-            app:civ_border_width="2dp" />
+            app:civ_border_width="2dp"
+            android:background="#ffffff"/>
 
         <TextView
             android:layout_width="wrap_content"
