@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
 //        인터넷에 있는 이미지 (https://~)를 이미지뷰에 바로 대입
 
-        Glide.with(this).load("https://www.nepp.kr/_nuxt/img/a2e717a.png").into(lectureImg1)
+        Glide.with(this).load("http://www.nepp.kr/_nuxt/img/a2e717a.png").into(lectureImg1)
 
     }
 }
