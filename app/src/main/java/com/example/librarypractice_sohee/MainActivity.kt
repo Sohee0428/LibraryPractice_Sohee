@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
 //                    권한이 승인된 경우 - 실제로 전화 연결 진행
 
-                    val myUri = Uri.parse("010-1111-1111")
+                    val myUri = Uri.parse("tel: 010-1111-1111")
                     val myIntent = Intent(Intent.ACTION_CALL,myUri)
 
                     startActivity(myIntent)
