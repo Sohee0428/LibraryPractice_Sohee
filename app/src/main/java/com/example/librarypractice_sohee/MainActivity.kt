@@ -24,5 +24,12 @@ class MainActivity : AppCompatActivity() {
 
         Glide.with(this).load("http://www.nepp.kr/_nuxt/img/a2e717a.png").into(lectureImg1)
 
+//        전화걸기 버튼 누르기 -> 권한 확인 / 전화 연결
+
+        callBtn.setOnClickListener {
+
+//            라이브러리 활용 -> 전화 권한 확인 -> 실제 전화 연결
+        }
+
     }
 }
